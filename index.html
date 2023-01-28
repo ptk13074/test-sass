@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="sass/style.css">
     <title>Live Friday Coding</title>
 </head>
@@ -13,14 +15,14 @@
 <body>
 
     <header class="header">
-        <div class="wrapper">
-            <a href="#" class="Logo">Logo</a>
+        <div class="wrapper header__wrapper">
+            <a href="#" class="Logo"><img src="img/header/Logo.png" alt="Productly LCC"></a>
             <nav class="header__navigation">
                 <ul class="navigation">
-                    <li>Home</li>
-                    <li>Service</li>
-                    <li>About</li>
-                    <li>Product</li>
+                    <li class="navigation__link">Home</li>
+                    <li class="navigation__link">Service</li>
+                    <li class="navigation__link">About</li>
+                    <li class="navigation__link">Product</li>
                 </ul>
             </nav>
             <div class="header__buttons">
@@ -30,7 +32,7 @@
         </div>
     </header>
     <section class="promo">
-        <div class="wrapper">
+        <div class="wrapper promo__wrapper">
             <div class="promo__content">
                 <h1>The Design Thinking superpowers</h1>
                 <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine
@@ -41,6 +43,9 @@
                         <span class="ico ico_play"></span> Watch the Video
                     </a>
                 </div>
+            </div>
+            <div>
+                <img src="img/section1/Image.svg" class="promo__image" alt="The desing thinkink superpower">
             </div>
         </div>
     </section>
@@ -55,6 +60,28 @@
                     <h4>First click tests</h4>
                     <p>While most people enjoy
                         casino gambling,</p>
+                </div>
+                <div class="tool">
+                    <div class="tool__icon">
+                        <span class="icon-square icon_lilium"></span>
+                    </div>
+                    <h4>Design surveys</h4>
+                    <p>Sports betting, lottery and bingo playing for the fun</p>
+                </div>
+                <div class="tool">
+                    <div class="tool__icon">
+                        <span class="icon-square icon_lilium"></span>
+                    </div>
+                    <h4>Preference tests</h4>
+                    <p>The Myspace page defines
+                        the individual.</p>
+                </div>
+                <div class="tool">
+                    <div class="tool__icon">
+                        <span class="icon-square icon_lilium"></span>
+                    </div>
+                    <h4>Five second tests</h4>
+                    <p>Personal choices and the overall personality of the person. </p>
                 </div>
             </div>
             <div class="tools-button">
@@ -72,13 +99,41 @@
                 <span class="tag tag-bordered">Art</span>
             </div>
             <div class="layout-3-column">
-                <div class="strategy block-shadowed">
-                    <img src="img/section2/pic1.png" alt="strategy">
+                <article class="strategy block-shadowed">
+                    <img src="img/section2/pic1.png" class="strategy__image" alt="strategy">
                     <h3>Increasing Prosperity With Positive Thinking</h3>
                     <div class="stategies__tags">
                         <span class="tag tag-colored">all</span>
                     </div>
-                </div>
+                </article>
+                <article class="strategy block-shadowed">
+                    <img src="img/section2/pic2.png" class="strategy__image" alt="strategy">
+                    <h3>Increasing Prosperity With Positive Thinking</h3>
+                    <div class="stategies__tags">
+                        <span class="tag tag-colored">all</span>
+                    </div>
+                </article>
+                <article class="strategy strategy_wide block-shadowed">
+                    <img src="img/section2/pic3.png" class="strategy__image" alt="strategy">
+                    <h3>Increasing Prosperity With Positive Thinking</h3>
+                    <div class="stategies__tags">
+                        <span class="tag tag-colored">all</span>
+                    </div>
+                </article>
+                <article class="strategy block-shadowed">
+                    <img src="img/section2/image4.png" class="strategy__image" alt="strategy">
+                    <h3>Increasing Prosperity With Positive Thinking</h3>
+                    <div class="stategies__tags">
+                        <span class="tag tag-colored">all</span>
+                    </div>
+                </article>
+                <article class="strategy block-shadowed">
+                    <img src="img/section2/pic4.png" class="strategy__image" alt="strategy">
+                    <h3>Increasing Prosperity With Positive Thinking</h3>
+                    <div class="stategies__tags">
+                        <span class="tag tag-colored">all</span>
+                    </div>
+                </article>
             </div>
         </div>
     </section>
@@ -127,7 +182,7 @@
                         </div>
                         <textarea name="question" id="" cols="30" rows="10"></textarea>
                         <div class="contact-us-button">
-                            <button type="submit" class="buton button_colored">Send</button>
+                            <button type="submit" class="button button_colored">Send</button>
                         </div>
                     </form>
                 </div>
