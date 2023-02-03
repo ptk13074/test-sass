@@ -24,5 +24,5 @@ margin-right: 44px;
     max-width: 487px;
     margin: 0 0 45px;
     @extend %font-add !optional;
-    @include font($size: 1.8rem, $height: 2.8rem, $weigth: normal)
+    @include font($size: 1.8rem, $height: 2.8rem, $weight: normal)
 }
