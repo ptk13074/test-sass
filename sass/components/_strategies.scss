@@ -6,6 +6,9 @@
             width: 48%;
             flex-basis: 48%;
         }
+        @include media-mobile {
+            flex-basis: 100%;
+        }
     }
 }
 
@@ -41,8 +44,6 @@
         justify-content: center;
     }
 }
-
-
 
 .strategy__content {
     padding: 24px 33px 26px;
